@@ -1,0 +1,2 @@
+Quốc Huy: Làm layout + js cho phần register
+Tuấn Huy: Làm js render dữ liệu 
