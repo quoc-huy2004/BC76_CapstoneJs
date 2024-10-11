@@ -24,6 +24,7 @@ document.querySelector("#QLTK").onsubmit = function (event) {
     .then((res) => {
       console.log(res);
       renderThongBao(res.data.message, "success");
+      this.reset();
     })
     .catch((err) => {
       console.log(err);
