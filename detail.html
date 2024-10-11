@@ -574,7 +574,9 @@
                               <div class="inc qty-btn">+</div>
                             </div>
                           </div>
-                          <a class="btn-theme" href="shop-cart.html"
+                          <a
+                            class="btn-theme add-to-cart-btn"
+                            data-product-id="123"
                             >Add to Cart</a
                           >
                         </div>
@@ -1917,21 +1919,6 @@
     </div>
 
     <!--=======================Javascript============================-->
-
-    <!--=== jQuery Modernizr Min Js ===-->
-    <script src="assets/js/modernizr.js"></script>
-    <!--=== jQuery Min Js ===-->
-    <script src="assets/js/jquery-main.js"></script>
-    <!--=== jQuery Migration Min Js ===-->
-    <script src="assets/js/jquery-migrate.js"></script>
-    <!--=== jQuery Popper Min Js ===-->
-    <script src="assets/js/popper.min.js"></script>
-    <!--=== jQuery Bootstrap Min Js ===-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--=== jQuery Ui Min Js ===-->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!--=== jQuery Swiper Min Js ===-->
-    <script src="assets/js/swiper.min.js"></script>
     <!--=== Fancybox ===-->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script>
@@ -1939,14 +1926,17 @@
         // Your custom options
       });
     </script>
-    <!--=== jQuery Waypoint Js ===-->
-    <script src="assets/js/waypoint.js"></script>
-    <!--=== jQuery Parallax Min Js ===-->
-    <script src="assets/js/parallax.min.js"></script>
-    <!--=== jQuery Aos Min Js ===-->
-    <script src="assets/js/aos.min.js"></script>
 
-    <!--=== Information js ===-->
-    <script src="./js/information.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
+      integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./js/api.js"></script>
   </body>
 </html>

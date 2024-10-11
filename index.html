@@ -44,11 +44,11 @@
     <link href="./css/boostrap.min.css" rel="stylesheet" />
     <!--== Swiper CSS ==-->
     <link href="./css/swipper.min.css" rel="stylesheet" />
-    <!--== Fancybox Min CSS ==-->
-    <!-- <link href="./css/fancybox.min.css" rel="stylesheet" /> -->
-    <!--== Aos Min CSS ==-->
-    <!-- <link href="./css/aos.min.css" rel="stylesheet" /> -->
-
+    <!-- animate css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!--== Main Style CSS ==-->
     <link href="./css/style.css" rel="stylesheet" />
 
@@ -391,7 +391,10 @@
                       >
                         <div class="col-sm-6 col-md-5">
                           <div class="slider-content">
-                            <div class="content">
+                            <div
+                              class="content animate__animated animate__zoomIn"
+                              animation-duration
+                            >
                               <div class="title-box">
                                 <h2 class="title">Exclusive New Shoes</h2>
                               </div>
@@ -411,29 +414,13 @@
                         <div class="col-sm-6 col-md-6">
                           <div class="slider-thumb">
                             <div class="thumb scene">
-                              <span class="scene-layer" data-depth=".3"
-                                ><img
-                                  src="./img/slider-01.webp"
-                                  width="461"
-                                  height="489"
-                                  alt="Image-HasTech"
-                              /></span>
-                            </div>
-                            <div class="shape-group mousemove">
-                              <div
-                                class="shape-group-one mousemove-layer"
-                                data-speed=".8"
-                                data-bg-img="assets/img/shape/2.webp"
-                              ></div>
-                              <div class="shape-group-two scene">
-                                <span class="scene-layer" data-depth=".6"
-                                  ><img
-                                    src="./img/slider-03.webp"
-                                    width="471"
-                                    height="462"
-                                    alt="Image-HasTech"
-                                /></span>
-                              </div>
+                              <img
+                                class="animate__animated animate__backInDown"
+                                src="./img/slider-01.webp"
+                                width="461"
+                                height="489"
+                                alt="Image-HasTech"
+                              />
                             </div>
                           </div>
                         </div>
@@ -619,7 +606,7 @@
                 <div class="product-item">
                   <div class="inner-content">
                     <div class="product-thumb">
-                      <a href="single-product.html">
+                      <a href="detail.html">
                         <img
                           src="./img/product1.webp"
                           width="270"
@@ -1096,452 +1083,8 @@
         </section>
         <!--== End Divider Area Wrapper ==-->
 
-        <!--== Start Product Area Wrapper ==-->
-        <section class="product-area product-best-seller-area">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-title text-center">
-                  <h3 class="title">Best Seller</h3>
-                  <div class="desc">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="product-slider-wrap">
-                  <div class="swiper-container product-slider-col4-container">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                              <a href="single-product.html">
-                                <img
-                                  src="./img/product1.webp"
-                                  width="270"
-                                  height="274"
-                                  alt="Image-HasTech"
-                                />
-                              </a>
-                              <div class="product-flag">
-                                <ul>
-                                  <li class="discount">-10%</li>
-                                </ul>
-                              </div>
-                              <div class="product-action">
-                                <a
-                                  class="btn-product-wishlist"
-                                  href="shop-wishlist.html"
-                                  ><i class="fa fa-heart"></i
-                                ></a>
-                                <a
-                                  class="btn-product-cart"
-                                  href="shop-cart.html"
-                                  ><i class="fa fa-shopping-cart"></i
-                                ></a>
-                                <button
-                                  type="button"
-                                  class="btn-product-quick-view-open"
-                                >
-                                  <i class="fa fa-arrows"></i>
-                                </button>
-                                <a
-                                  class="btn-product-compare"
-                                  href="shop-compare.html"
-                                  ><i class="fa fa-random"></i
-                                ></a>
-                              </div>
-                              <a
-                                class="banner-link-overlay"
-                                href="shop.html"
-                              ></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.html">Men</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
-                                </ul>
-                              </div>
-                              <h4 class="title">
-                                <a href="single-product.html"
-                                  >Modern Smart Shoes</a
-                                >
-                              </h4>
-                              <div class="prices">
-                                <span class="price-old">$200</span>
-                                <span class="sep">-</span>
-                                <span class="price">$240.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--== End prPduct Item ==-->
-                      </div>
-                      <div class="swiper-slide">
-                        <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                              <a href="single-product.html">
-                                <img
-                                  src="./img/product7.webp"
-                                  width="270"
-                                  height="274"
-                                  alt="Image-HasTech"
-                                />
-                              </a>
-                              <div class="product-action">
-                                <a
-                                  class="btn-product-wishlist"
-                                  href="shop-wishlist.html"
-                                  ><i class="fa fa-heart"></i
-                                ></a>
-                                <a
-                                  class="btn-product-cart"
-                                  href="shop-cart.html"
-                                  ><i class="fa fa-shopping-cart"></i
-                                ></a>
-                                <button
-                                  type="button"
-                                  class="btn-product-quick-view-open"
-                                >
-                                  <i class="fa fa-arrows"></i>
-                                </button>
-                                <a
-                                  class="btn-product-compare"
-                                  href="shop-compare.html"
-                                  ><i class="fa fa-random"></i
-                                ></a>
-                              </div>
-                              <a
-                                class="banner-link-overlay"
-                                href="shop.html"
-                              ></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.html">Men</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
-                                </ul>
-                              </div>
-                              <h4 class="title">
-                                <a href="single-product.html"
-                                  >Quickiin Mens shoes</a
-                                >
-                              </h4>
-                              <div class="prices">
-                                <span class="price">$440.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--== End prPduct Item ==-->
-                      </div>
-                      <div class="swiper-slide">
-                        <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                              <a href="single-product.html">
-                                <img
-                                  src="./img/product3.webp"
-                                  width="270"
-                                  height="274"
-                                  alt="Image-HasTech"
-                                />
-                              </a>
-                              <div class="product-flag">
-                                <ul>
-                                  <li class="discount">-10%</li>
-                                </ul>
-                              </div>
-                              <div class="product-action">
-                                <a
-                                  class="btn-product-wishlist"
-                                  href="shop-wishlist.html"
-                                  ><i class="fa fa-heart"></i
-                                ></a>
-                                <a
-                                  class="btn-product-cart"
-                                  href="shop-cart.html"
-                                  ><i class="fa fa-shopping-cart"></i
-                                ></a>
-                                <button
-                                  type="button"
-                                  class="btn-product-quick-view-open"
-                                >
-                                  <i class="fa fa-arrows"></i>
-                                </button>
-                                <a
-                                  class="btn-product-compare"
-                                  href="shop-compare.html"
-                                  ><i class="fa fa-random"></i
-                                ></a>
-                              </div>
-                              <a
-                                class="banner-link-overlay"
-                                href="shop.html"
-                              ></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.html">Men</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
-                                </ul>
-                              </div>
-                              <h4 class="title">
-                                <a href="single-product.html"
-                                  >Rexpo Womens shoes</a
-                                >
-                              </h4>
-                              <div class="prices">
-                                <span class="price-old">$130</span>
-                                <span class="sep">-</span>
-                                <span class="price">$333.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--== End prPduct Item ==-->
-                      </div>
-                      <div class="swiper-slide">
-                        <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                              <a href="single-product.html">
-                                <img
-                                  src="./img/product4.webp"
-                                  width="270"
-                                  height="274"
-                                  alt="Image-HasTech"
-                                />
-                              </a>
-                              <div class="product-action">
-                                <a
-                                  class="btn-product-wishlist"
-                                  href="shop-wishlist.html"
-                                  ><i class="fa fa-heart"></i
-                                ></a>
-                                <a
-                                  class="btn-product-cart"
-                                  href="shop-cart.html"
-                                  ><i class="fa fa-shopping-cart"></i
-                                ></a>
-                                <button
-                                  type="button"
-                                  class="btn-product-quick-view-open"
-                                >
-                                  <i class="fa fa-arrows"></i>
-                                </button>
-                                <a
-                                  class="btn-product-compare"
-                                  href="shop-compare.html"
-                                  ><i class="fa fa-random"></i
-                                ></a>
-                              </div>
-                              <a
-                                class="banner-link-overlay"
-                                href="shop.html"
-                              ></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.html">Men</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
-                                </ul>
-                              </div>
-                              <h4 class="title">
-                                <a href="single-product.html"
-                                  >Leather Mens Slipper</a
-                                >
-                              </h4>
-                              <div class="prices">
-                                <span class="price">$540.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--== End prPduct Item ==-->
-                      </div>
-                      <div class="swiper-slide">
-                        <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                              <a href="single-product.html">
-                                <img
-                                  src="./img/product5.webp"
-                                  width="270"
-                                  height="274"
-                                  alt="Image-HasTech"
-                                />
-                              </a>
-                              <div class="product-action">
-                                <a
-                                  class="btn-product-wishlist"
-                                  href="shop-wishlist.html"
-                                  ><i class="fa fa-heart"></i
-                                ></a>
-                                <a
-                                  class="btn-product-cart"
-                                  href="shop-cart.html"
-                                  ><i class="fa fa-shopping-cart"></i
-                                ></a>
-                                <button
-                                  type="button"
-                                  class="btn-product-quick-view-open"
-                                >
-                                  <i class="fa fa-arrows"></i>
-                                </button>
-                                <a
-                                  class="btn-product-compare"
-                                  href="shop-compare.html"
-                                  ><i class="fa fa-random"></i
-                                ></a>
-                              </div>
-                              <a
-                                class="banner-link-overlay"
-                                href="shop.html"
-                              ></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.html">Men</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
-                                </ul>
-                              </div>
-                              <h4 class="title">
-                                <a href="single-product.html"
-                                  >Primitive Mens shoes</a
-                                >
-                              </h4>
-                              <div class="prices">
-                                <span class="price-old">$40</span>
-                                <span class="sep">-</span>
-                                <span class="price">$280.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--== End prPduct Item ==-->
-                      </div>
-                      <div class="swiper-slide">
-                        <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                              <a href="single-product.html">
-                                <img
-                                  src="./img/product6.webp"
-                                  width="270"
-                                  height="274"
-                                  alt="Image-HasTech"
-                                />
-                              </a>
-                              <div class="product-flag">
-                                <ul>
-                                  <li class="discount">-10%</li>
-                                </ul>
-                              </div>
-                              <div class="product-action">
-                                <a
-                                  class="btn-product-wishlist"
-                                  href="shop-wishlist.html"
-                                  ><i class="fa fa-heart"></i
-                                ></a>
-                                <a
-                                  class="btn-product-cart"
-                                  href="shop-cart.html"
-                                  ><i class="fa fa-shopping-cart"></i
-                                ></a>
-                                <button
-                                  type="button"
-                                  class="btn-product-quick-view-open"
-                                >
-                                  <i class="fa fa-arrows"></i>
-                                </button>
-                                <a
-                                  class="btn-product-compare"
-                                  href="shop-compare.html"
-                                  ><i class="fa fa-random"></i
-                                ></a>
-                              </div>
-                              <a
-                                class="banner-link-overlay"
-                                href="shop.html"
-                              ></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.html">Men</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
-                                </ul>
-                              </div>
-                              <h4 class="title">
-                                <a href="single-product.html"
-                                  >Simple Fabric Shoe</a
-                                >
-                              </h4>
-                              <div class="prices">
-                                <span class="price-old">$400</span>
-                                <span class="sep">-</span>
-                                <span class="price">$580.00</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!--== End prPduct Item ==-->
-                      </div>
-                    </div>
-                  </div>
-                  <!--== Add Swiper Arrows ==-->
-                  <div
-                    class="product-swiper-btn-wrap"
-                    tabindex="0"
-                    role="button"
-                    aria-label="Previous slide"
-                  >
-                    <div class="product-swiper-btn-prev">
-                      <i class="fa fa-arrow-left"></i>
-                    </div>
-                    <div
-                      class="product-swiper-btn-next"
-                      tabindex="0"
-                      role="button"
-                      aria-label="Next slide"
-                    >
-                      <i class="fa fa-arrow-right"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--== End Product Area Wrapper ==-->
-
         <!--== Start Divider Area Wrapper ==-->
-        <section>
+        <section class="mt-5">
           <div class="container pt--0 pb--0">
             <div
               class="row flex-md-row-reverse justify-content-between divider-wrap divider-style2"
@@ -2262,30 +1805,19 @@
     <script src="./js/back-to-top/assets/js/util.js"></script>
     <script src="./js/back-to-top/assets/js/main.js"></script>
 
-    <!--=== jQuery Modernizr Min Js ===-->
-    <script src="assets/js/modernizr.js"></script>
-    <!--=== jQuery Min Js ===-->
-    <script src="assets/js/jquery-main.js"></script>
-    <!--=== jQuery Migration Min Js ===-->
-    <script src="assets/js/jquery-migrate.js"></script>
-    <!--=== jQuery Popper Min Js ===-->
-    <script src="assets/js/popper.min.js"></script>
-    <!--=== jQuery Bootstrap Min Js ===-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--=== jQuery Ui Min Js ===-->
-    <script src="assets/js/jquery-ui.min.js"></script>
     <!--=== jQuery Swiper Min Js ===-->
     <script src="./js/swiper/swiper.min.js"></script>
-    <!--=== jQuery Fancybox Min Js ===-->
-    <script src="assets/js/fancybox.min.js"></script>
-    <!--=== jQuery Waypoint Js ===-->
-    <script src="assets/js/waypoint.js"></script>
-    <!--=== jQuery Parallax Min Js ===-->
-    <script src="assets/js/parallax.min.js"></script>
-    <!--=== jQuery Aos Min Js ===-->
-    <script src="assets/js/aos.min.js"></script>
-
-    <!--=== jQuery Custom Js ===-->
-    <script src="assets/js/custom.js"></script>
+    <!--=== Wow Js ===-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!--=== jQuery Swiper Min Js ===-->
+    <script src="./js/swiper/swiper.min.js"></script>
   </body>
 </html>

@@ -31,6 +31,19 @@ document.querySelector("#QLTK").onsubmit = function (event) {
     });
 };
 
+function getInfoSanPham() {
+  let promise = http.get("/Product");
+  promise
+    .then((res) => {
+      console.log(res);
+      renderThongBao(res.data.message, "success");
+    })
+    .catch((err) => {
+      console.log(err);
+      renderThongBao("Đăng kí tài khoản thất bại, vui lòng thử lại", "danger");
+    });
+}
+
 function renderThongBao(content, error) {
   const bgError = error == "success" ? "green" : "red";
 
